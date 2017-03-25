@@ -8,7 +8,7 @@ function titleCase(str) {
       if (i === 0) {
         titleCased[i] = titleCased[i].toUpperCase();
       } else {
-        titleCased[i] = titleCased[i].toLowerCase();        
+        titleCased[i] = titleCased[i].toLowerCase();
       }
     }
     return titleCased.join('');

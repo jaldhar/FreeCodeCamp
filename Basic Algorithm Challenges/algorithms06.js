@@ -4,7 +4,7 @@ function largestOfFour(arr){
 	return arr.map(function(elem){
 		return elem.sort(function(a, b){
 			return a < b;
-		})[0];		
+		})[0];
 	});
 }
 
